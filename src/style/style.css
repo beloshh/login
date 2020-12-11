@@ -1,0 +1,106 @@
+html {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("../images/bg-intro-desktop.png");
+}
+#one {
+  color: white;
+  margin-top: 15%;
+  padding-left: 8%;
+}
+#pole {
+  line-height: 50px;
+}
+small {
+  color: red;
+  font-size: 10px;
+}
+#three {
+  color: white;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  width: 90%;
+  margin-top: 50px;
+  height: 65px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#four {
+  background-color: white;
+  border-radius: 10px;
+  width: 90%;
+  margin-top: 30px;
+  height: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+#input {
+  width: 80%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.field {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 20px;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+}
+button {
+  background-color: hsl(154, 59%, 51%);
+  width: 80%;
+  box-shadow: inset 0 -0.2rem 0 0 rgba(0, 0, 0, 0.2);
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#you {
+  margin-top: 40px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.yup {
+  font-size: 14px;
+  color: hsl(0, 5%, 70%);
+  font-weight: 200;
+  margin-top: 20px;
+  padding: 20px;
+}
+a {
+  color: hsl(0, 100%, 74%);
+}
+footer {
+  top: 95%;
+  left: 50%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(0, 0%, 17%);
+}
+@media screen and (max-width: 768px) {
+  #two {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  button {
+    width: 65%;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  #one {
+    text-align: center;
+  }
+  #pole {
+    line-height: 50px;
+    font-size: 10vw;
+  }
+}
